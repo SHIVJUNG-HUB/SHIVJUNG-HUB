@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(31, 124, 142);
+}
+
+.container {
+    border: 1px solid rgb(15, 39, 104); /* Added 'solid' and a color for the border */
+    box-sizing: border-box;
+}
+
+.button {
+    stroke: rgb(168, 228, 228);
+    column-count: 1; /* Corrected 'columns' to 'column-count' */
+    display: flex; /* Changed 'flexbox' to 'flex' */
+    align-items: flex-start;
+    position:relative; /* Added to use 'left' property */
+    text-decoration: line-through;
+     /* This will move the element 100% to the right of its container */
+}
+h1{
+    text-align: right;
+}
+.hr {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
