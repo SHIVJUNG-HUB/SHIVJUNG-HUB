@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+
+}
 body {
     background-color: rgb(31, 124, 142);
 }
@@ -7,19 +11,26 @@ body {
     box-sizing: border-box;
 }
 
-.button {
+.button{
     stroke: rgb(168, 228, 228);
     column-count: 1; /* Corrected 'columns' to 'column-count' */
     display: flex; /* Changed 'flexbox' to 'flex' */
     align-items: flex-start;
     position:relative; /* Added to use 'left' property */
     text-decoration: line-through;
+    gap: 100px;
      /* This will move the element 100% to the right of its container */
 }
 h1{
     text-align: right;
-}
+}   qa
 .hr {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
 }
